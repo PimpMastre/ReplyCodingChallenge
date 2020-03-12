@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf2cc21b-bf39-431e-a93a-ab6fdab8701d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/ReplyCodingChallenge.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ReplyCodingChallenge.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +30,6 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/main.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -46,12 +41,11 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Program Files (x86)\Python38-32\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -84,48 +78,37 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584021832744</updated>
-      <workItem from="1584031358064" duration="97000" />
     </task>
     <servers />
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="440" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584031381684">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="734" y="356" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584021853658">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="440" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1584031381684" />
     <state x="734" y="356" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1584021853658" />
-    <state x="636" y="268" key="FileChooserDialogImpl" timestamp="1584031380570">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="1060" y="456" key="FileChooserDialogImpl" timestamp="1584021852260">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="636" y="268" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1584031380570" />
     <state x="1060" y="456" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1584021852260" />
-    <state width="1537" height="218" key="GridCell.Tab.0.bottom" timestamp="1584031461771">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="2539" height="401" key="GridCell.Tab.0.bottom" timestamp="1584031764010">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1537" height="218" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584031461771" />
-    <state width="2539" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1584022510630" />
-    <state width="1537" height="218" key="GridCell.Tab.0.center" timestamp="1584031461770">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="2539" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1584031764010" />
+    <state width="2539" height="401" key="GridCell.Tab.0.center" timestamp="1584031764010">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1537" height="218" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584031461770" />
-    <state width="2539" height="401" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1584022510630" />
-    <state width="1537" height="218" key="GridCell.Tab.0.left" timestamp="1584031461770">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="2539" height="401" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1584031764010" />
+    <state width="2539" height="401" key="GridCell.Tab.0.left" timestamp="1584031764010">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1537" height="218" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584031461770" />
-    <state width="2539" height="401" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1584022510630" />
-    <state width="1537" height="218" key="GridCell.Tab.0.right" timestamp="1584031461770">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="2539" height="401" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1584031764010" />
+    <state width="2539" height="401" key="GridCell.Tab.0.right" timestamp="1584031764010">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1537" height="218" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584031461770" />
-    <state width="2539" height="401" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1584022510630" />
-    <state x="469" y="110" key="SettingsEditor" timestamp="1584031368866">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="2539" height="401" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1584031764010" />
+    <state x="781" y="343" key="SettingsEditor" timestamp="1584021844307">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="469" y="110" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1584031368866" />
     <state x="781" y="343" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1584021844307" />
     <state x="976" y="525" key="com.intellij.ide.util.TipDialog" timestamp="1584021836129">
       <screen x="0" y="0" width="2560" height="1400" />
@@ -135,8 +118,5 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="941" y="390" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1584027934408" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ReplyCodingChallenge$main.coverage" NAME="main Coverage Results" MODIFIED="1584031461763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
