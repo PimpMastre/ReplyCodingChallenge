@@ -30,7 +30,7 @@ class Service():
 
             company = dev_line[0]
             bonus = int(dev_line[1])
-            skills = dev_line[2:]
+            skills = dev_line[3:]
             self.__developers.append(Developer(company, bonus, skills))
 
         # read project managers
