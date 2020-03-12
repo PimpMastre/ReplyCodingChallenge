@@ -34,21 +34,23 @@ def getTotalScore(sizes, matrix, map):
     sum = 0
     for i in range(sizes[1]):
         for j in range(sizes[0]):
-            if matrix[i][j] != '#':
-                #searching right cell
-                if j + 1 < sizes[0]:
-                    if matrix[i][j + 1] != '#':
-                        sum += getTotalPotential(
-                                                map[(i, j)],
-                                                map[(i,j + 1)]
-                                                 )
+            try:
+                if matrix[i][j] != '#':
+                    #searching right cell
+                    if j + 1 < sizes[0]:
+                        if matrix[i][j + 1] != '#':
+                            sum += getTotalPotential(
+                                                    map[(i, j)],
+                                                    map[(i,j + 1)]
+                                                     )
 
-                #searching bottom cell
-                if i + 1 < sizes[1]:
-                    if matrix[i + 1][j] != '#':
-                        sum += getTotalPotential(
-                                                map[(i, j)],
-                                                map[(i + 1, j)]
-                                                )
-
+                    #searching bottom cell
+                    if i + 1 < sizes[1]:
+                        if matrix[i + 1][j] != '#':
+                            sum += getTotalPotential(
+                                                    map[(i, j)],
+                                                    map[(i + 1, j)]
+                                                    )
+            except KeyError:
+                continue
     return sum
