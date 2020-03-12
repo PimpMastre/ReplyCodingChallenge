@@ -14,3 +14,6 @@ class ProjectManager():
 
     def set_bonus(self, value):
         self.__bonus = value
+
+    def __str__(self):
+        return self.__company + ' ' + str(self.__bonus)
