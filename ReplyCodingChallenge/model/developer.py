@@ -21,3 +21,6 @@ class Developer():
 
     def set_skills(self, value):
         self.__skills = value
+
+    def __str__(self):
+        return self.__company + ' ' + str(self.__bonus) + ' ' + str(self.__skills)
