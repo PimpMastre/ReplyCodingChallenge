@@ -29,3 +29,25 @@ def getTotalPotential(replyer1, replyer2):
     if isinstance(replyer1, Developer) and isinstance(replyer2, Developer):
         workPotential += getWorkPotential(replyer1, replyer2)
     return bonusPotential + workPotential
+
+def getTotalScore(sizes, matrix, map):
+    sum = 0
+    for i in range(sizes[0] - 1):
+        for j in range(sizes[1] - 1):
+            cell = matrix[i][j]
+
+            #searching right cell
+            if matrix[i][j + 1] != 0:
+                sum += getTotalPotential(
+                                        map[(i, j)],
+                                        map[i,j + 1]
+                                         )
+
+            #searching bottom cell
+            if matrix[i + 1][j] != 0:
+                sum += getTotalPotential(
+                                        map(i, j),
+                                        map[i + 1, j]
+                                        )
+
+    return sum
