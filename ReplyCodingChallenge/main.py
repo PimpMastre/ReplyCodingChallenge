@@ -5,9 +5,9 @@ def start():
     service = Service("data/a_solar.txt")
     service.read_from_file()
 
-    dev1 = Developer("Company", 300, [1, 2, 3])
-    dev2 = Developer("Company", 300, [1, 2, 3])
-    print(getTotalPotential(dev1, dev2))
+    devs = service.get_developers()
+    print(devs[0],devs[2])
+    print(getTotalPotential(devs[0], devs[2]))
 
 
 start()
